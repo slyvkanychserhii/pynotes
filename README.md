@@ -1,3 +1,42 @@
+# Django
+
+создать новый проект Django
+```
+django-admin startproject myproject .
+```
+
+запустить сервера разработки
+```
+python manage.py runserver
+```
+
+создать новое приложение
+```
+python manage.py startapp myapp
+```
+
+создать миграцию базы данных
+```
+python manage.py makemigrations
+```
+
+применить миграции базы данных
+```
+python manage.py migrate
+```
+
+создать суперпользователя
+```
+python manage.py createsuperuser
+```
+
+запустить оболочку Django
+```
+python manage.py shell
+```
+
+
+
 # Git/GitHub
 
 добавить легкий тег "v1.4"
@@ -44,3 +83,5 @@ git checkout v1.2
 ```
 git checkout -b version2 v1.2
 ```
+
+
